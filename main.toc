@@ -1,0 +1,30 @@
+\contentsline {section}{\numberline {1}Master System Overview}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}The Three Layers of the Rover}{3}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Hardware Architecture (Layer 0)}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Power Distribution Board (PDB)}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}The Safety E-Stop Circuit (Crucial)}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Logic Level Shifting}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Control Board (STM32)}{4}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Home Made Motor Driver Boards or BTS }{5}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Firmware Architecture (STM32)}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}FreeRTOS Task Map}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Embedded APIs and Drivers}{6}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Encoder Driver (Hardware Timers)}{6}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Motor Control (PWM )}{6}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Kinematic equation for the rover}{6}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}IMU Driver (BNO055 via I2C)}{7}{subsubsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.5}Laser Pointer \& Servo Drivers}{7}{subsubsection.3.2.5}%
+\contentsline {subsubsection}{\numberline {3.2.6} GPS API}{7}{subsubsection.3.2.6}%
+\contentsline {subsubsection}{\numberline {3.2.7}Communication Module For the PI}{7}{subsubsection.3.2.7}%
+\contentsline {subsubsection}{\numberline {3.2.8}PID Control for wheel velocity}{7}{subsubsection.3.2.8}%
+\contentsline {subsubsection}{\numberline {3.2.9}Bluetooth Module for Remote Control}{8}{subsubsection.3.2.9}%
+\contentsline {section}{\numberline {4}Software Architecture (ROS 2 Humble/Jazzy)}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}The ROS 2 Workspace (\texttt {ugvc\_ws})}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}ROS 2 Node \& Topic Dictionary}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}GUI }{10}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Network Architecture}{10}{subsection.4.4}%
+\contentsline {section}{\numberline {5}The Autonomy Engine: How We Win}{12}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Step 1: Localization (Where am I?)}{12}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Step 2: Perception (What is around me?)}{12}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Step 3: Planning (How do I move?)}{12}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Step 4: The State Machine (Behavior Trees)}{12}{subsection.5.4}%
