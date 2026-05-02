@@ -233,6 +233,11 @@ The BNO055 does sensor fusion internally.
 
 \end{itemize}
 
+\subsubsection{ Voltage and Current measurement code }
+
+\begin{itemize}
+    \item Probably we will use a voltage divider with a protection circuit with an ADC pin on the STM32 to measure the battery voltage. For current measurement, we can use a current sensor like the ACS712, which outputs an analog voltage proportional to the current flowing through it. The STM32 can read this voltage using its ADC to calculate the current draw of the motors and other components,or we can add a shunt resistor in series with the motor power line and measure the voltage drop across it to calculate current using Ohm's Law (I = V/R).
+\end{itemize}
 
 \newpage
 

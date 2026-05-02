@@ -1,8 +1,8 @@
-PWD e:/AUR_Misc
+PWD d:/Education(work)/AU_Robotics/Rover26/System
 INPUT c:/texlive/2026/texmf.cnf
 INPUT c:/texlive/2026/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT e:/AUR_Misc/main.tex
+INPUT d:/Education(work)/AU_Robotics/Rover26/System/main.tex
 OUTPUT main.log
 INPUT c:/texlive/2026/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2026/texmf-dist/tex/latex/base/article.cls

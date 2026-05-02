@@ -18,6 +18,7 @@
 \contentsline {subsubsection}{\numberline {3.2.7}Communication Module For the PI}{7}{subsubsection.3.2.7}%
 \contentsline {subsubsection}{\numberline {3.2.8}PID Control for wheel velocity}{7}{subsubsection.3.2.8}%
 \contentsline {subsubsection}{\numberline {3.2.9}Bluetooth Module for Remote Control}{8}{subsubsection.3.2.9}%
+\contentsline {subsubsection}{\numberline {3.2.10} Voltage and Current measurement code }{8}{subsubsection.3.2.10}%
 \contentsline {section}{\numberline {4}Software Architecture (ROS 2 Humble/Jazzy)}{9}{section.4}%
 \contentsline {subsection}{\numberline {4.1}The ROS 2 Workspace (\texttt {ugvc\_ws})}{9}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}ROS 2 Node \& Topic Dictionary}{9}{subsection.4.2}%
